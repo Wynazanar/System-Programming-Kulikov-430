@@ -14,11 +14,13 @@ docker run -d -p 80:80 [--name Name] nginx
 <p>docker rm [id]</p>
 <i><p>Удалает контейнер</p></i>
 
-nano 
+<p>nano(vim) ...</p>
+<i><p>Удалает контейнер</p></i>
+
 <div>
-<p>version: "3.9"</p>
-<p>sevices:</p>
-<p><t>nginx:</t></p>
+version: "3.9"
+sevices:
+    nginx:
     image: nginx
     container_name: web-server
     ports:
@@ -29,6 +31,16 @@ nano
     ports:
       - 3000:3000
 </div>
+
+<fieldset>
+  <legend>
+    Введите данные
+  </legend>
+    asdasd
+    asdasd
+    asdasd
+</fieldset>
+
 <h2>Выполненные команды в ходе задания</h2>
 1. docker run -d -p 80:80 nginx
 2. docker run -d -p 3000:3000 gitea/gitea
