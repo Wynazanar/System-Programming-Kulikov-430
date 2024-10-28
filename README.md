@@ -18,7 +18,7 @@ docker run -d -p 80:80 [--name Name] nginx
 <i><p>...</p></i>
 
 <body>
-    <div style="background="Red""><p>
+    <div style="bakground-color: red;">
     version: "3.9"
     sevices:
         nginx:
@@ -31,7 +31,7 @@ docker run -d -p 80:80 [--name Name] nginx
             container_name: git-server
             ports:
               - 3000:3000
-    </p></div>
+    </div>
 </body>
 
 
