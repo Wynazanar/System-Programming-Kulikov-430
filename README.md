@@ -24,9 +24,8 @@ docker run -d -p 80:80 [--name Name] nginx
 <h2><b>Создание файла:</b></h2> 
 <p>nano(vim) compose.yml</p>
 <i><p>...</p></i>
-
-    <div>
-    version: "3.9"
+<div>
+version: "3.9"
 
 services:
   nginx:
@@ -39,8 +38,7 @@ services:
     container_name: git-server
     ports:
     - 3000:3000
-
-    </div>
+</div>
 
 <h2><b>Что-то там контейнера:</b></h2> 
 docker compose up -d
