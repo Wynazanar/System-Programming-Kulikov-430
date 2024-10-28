@@ -16,9 +16,9 @@ docker run -d -p 80:80 [--name Name] nginx
 
 nano 
 <div>
-version: "3.9"
-sevices:
-  nginx:
+<p>version: "3.9"</p>
+<p>sevices:</p>
+<p>  nginx:</p>
     image: nginx
     container_name: web-server
     ports:
