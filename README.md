@@ -25,7 +25,6 @@ docker run -d -p 80:80 [--name Name] nginx
 <p>nano(vim) compose.yml</p>
 <i><p>...</p></i>
 
-<body>
     <div>
     version: "3.9"
 
@@ -42,7 +41,6 @@ services:
     - 3000:3000
 
     </div>
-</body>
 
 <h2><b>Что-то там контейнера:</b></h2> 
 docker compose up -d
