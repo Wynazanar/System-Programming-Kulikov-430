@@ -18,8 +18,7 @@ docker run -d -p 80:80 [--name Name] nginx
 <i><p>...</p></i>
 
 <body>
-    <div style="border: 1px solid red;
-    padding: 0 10px;"><p>
+    <div style="background="Red""><p>
     version: "3.9"
     sevices:
         nginx:
