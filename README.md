@@ -18,7 +18,7 @@ nano
 <div>
 <p>version: "3.9"</p>
 <p>sevices:</p>
-<p>  nginx:</p>
+<p><t>nginx:</t></p>
     image: nginx
     container_name: web-server
     ports:
