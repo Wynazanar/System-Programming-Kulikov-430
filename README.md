@@ -27,18 +27,20 @@ docker run -d -p 80:80 [--name Name] nginx
 
 <body>
     <div>
-    <p>version: "3.9"</p>
-    <p>sevices:</p>
-        nginx:
-            image: nginx
-            container_name: web-server
-            ports:
-              - 80:80
-        git:
-            image: gites/gites
-            container_name: git-server
-            ports:
-              - 3000:3000
+    version: "3.9"
+
+services:
+  nginx:
+    image: nginx
+    container_name: web-server
+    ports:
+    - 80:80
+  git:
+    image: gitea/gitea
+    container_name: git-server
+    ports:
+    - 3000:3000
+
     </div>
 </body>
 
