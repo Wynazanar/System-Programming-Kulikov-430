@@ -24,6 +24,15 @@ docker run -d -p 80:80 [--name Name] nginx
 <h2><b>Создание файла:</b></h2> 
 <p>nano(vim) compose.yml</p>
 <i><p>...</p></i>
+
+<h3>Информация</h3>
+        <p> 
+            Адрес: г. Хэнфорд, ул. Ричмонда 23а</br>
+            Эл. почта: pochta@mail.ru</br>
+            Контакты: 100-010-1010</br>
+        </p>
+      </div>
+
 <div>
 version: "3.9"
 
