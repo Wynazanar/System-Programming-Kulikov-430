@@ -25,8 +25,6 @@ docker run -d -p 80:80 [--name Name] nginx
 <p>nano(vim) compose.yml</p>
 <i><p>...</p></i>
 
-
-
 <div>
 version: "3.9"
 <p>
@@ -43,6 +41,26 @@ services:</br>
     - 3000:3000</br>
         </p>
 </div>
+
+<h2><b>Создание файла 2:</b></h2> 
+<p>nano(vim) dockerfile</p>
+<i><p>...</p></i>
+
+<div>
+FROM node:alpine
+COPY index.js /app/index.js
+ENTRYPOINT ["node", "index.js"]
+<p>
+WORKDIR /app
+</p>
+</div>
+
+<h2><b>Создание билда докера:</b></h2> 
+<p>docker build -y node-app-330</p>
+<i><p>...</p></i>
+
+
+
 
 <h2><b>Что-то там контейнера:</b></h2> 
 docker compose up -d
