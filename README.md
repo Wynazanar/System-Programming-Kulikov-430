@@ -47,12 +47,12 @@ services:</br>
 <i><p>...</p></i>
 
 <div>
-FROM node:alpine
-COPY index.js /app/index.js
-ENTRYPOINT ["node", "index.js"]
-<p>
-WORKDIR /app
-</p>
+  <p>
+    FROM node:alpine</br>
+    COPY index.js /app/index.js</br>
+    ENTRYPOINT ["node", "index.js"]</br>
+    WORKDIR /app</br>
+  </p>
 </div>
 
 <h2><b>Создание билда докера:</b></h2> 
