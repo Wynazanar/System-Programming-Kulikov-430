@@ -56,9 +56,9 @@ services:</br>
 <div>
   <p>
     FROM node:alpine</br>
+    WORKDIR /app</br>
     COPY index.js /app/index.js</br>
     ENTRYPOINT ["node", "index.js"]</br>
-    WORKDIR /app</br>
   </p>
 </div>
 
