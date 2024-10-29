@@ -25,28 +25,23 @@ docker run -d -p 80:80 [--name Name] nginx
 <p>nano(vim) compose.yml</p>
 <i><p>...</p></i>
 
-<h3>Информация</h3>
-        <p> 
-            Адрес: г. Хэнфорд, ул. Ричмонда 23а</br>
-            Эл. почта: pochta@mail.ru</br>
-            Контакты: 100-010-1010</br>
-        </p>
-      </div>
+
 
 <div>
 version: "3.9"
-
-services:
-  nginx:
-    image: nginx
-    container_name: web-server
-    ports:
-    - 80:80
-  git:
-    image: gitea/gitea
-    container_name: git-server
-    ports:
-    - 3000:3000
+<p>
+services:</br>
+  nginx:</br>
+    image: nginx</br>
+    container_name: web-server</br>
+    ports:</br>
+    - 80:80</br>
+  git:</br>
+    image: gitea/gitea</br>
+    container_name: git-server</br>
+    ports:</br>
+    - 3000:3000</br>
+        </p>
 </div>
 
 <h2><b>Что-то там контейнера:</b></h2> 
