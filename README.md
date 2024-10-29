@@ -43,6 +43,7 @@ services:</br>
 </div>
 
 <h2><b>Создание файла 2:</b></h2> 
+<p>nano(vim) index.js</p>
 <p>nano(vim) dockerfile</p>
 <i><p>...</p></i>
 
