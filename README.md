@@ -44,6 +44,12 @@ services:</br>
 
 <h2><b>Создание файла 2:</b></h2> 
 <p>nano(vim) index.js</p>
+<div>
+  <p>
+    console.log("Hello, world!")</br>
+  </p>
+</div>
+
 <p>nano(vim) dockerfile</p>
 <i><p>...</p></i>
 
@@ -57,7 +63,7 @@ services:</br>
 </div>
 
 <h2><b>Создание билда докера:</b></h2> 
-<p>docker build -y node-app-330</p>
+<p>docker build -y node-app-330 ./</p>
 <i><p>...</p></i>
 
 
