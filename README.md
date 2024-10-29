@@ -63,7 +63,7 @@ services:</br>
 </div>
 
 <h2><b>Создание билда докера:</b></h2> 
-<p>docker build -y node-app-330 ./</p>
+<p>docker build -t node-app-330 ./</p>
 <i><p>...</p></i>
 
 
