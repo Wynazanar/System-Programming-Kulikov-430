@@ -40,29 +40,20 @@ services:
     ports:
     - 3000:3000</br>
 ```
-# Создание файла 2: 
+# Создание файла ещё одного файла: 
 <p>nano(vim) index.js</p>
-<div>
-  <p>
-    console.log("Hello, world!")</br>
-  </p>
-</div>
-
+```
+console.log("Hello, world!")
+```
 <p>nano(vim) dockerfile</p>
-<i><p>...</p></i>
-
-<div>
-  <p>
-    FROM node:alpine</br>
-    WORKDIR /app</br>
-    COPY index.js /app/index.js</br>
-    ENTRYPOINT ["node", "index.js"]</br>
-  </p>
-</div>
-
-<h2><b>Создание билда докера:</b></h2> 
-<p>docker build -t node-app-330 ./</p>
-<i><p>...</p></i>
+```
+FROM node:alpine
+WORKDIR /app
+COPY index.js /app/index.js
+ENTRYPOINT ["node", "index.js"]
+```
+# Создание билда докера:
+`docker build -t node-app-330 ./`
 
 
 
