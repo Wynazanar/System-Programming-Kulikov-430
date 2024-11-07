@@ -42,16 +42,20 @@ services:
 ```
 # Создание файла ещё одного файла: 
 <p>nano(vim) index.js</p>
+
 ```
 console.log("Hello, world!")
 ```
+
 <p>nano(vim) dockerfile</p>
+
 ```
 FROM node:alpine
 WORKDIR /app
 COPY index.js /app/index.js
 ENTRYPOINT ["node", "index.js"]
 ```
+
 # Создание билда докера:
 `docker build -t node-app-330 ./`
 
