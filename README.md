@@ -1,23 +1,23 @@
 # Commands
 Команды ОСиС
 
-# Запуск контейнера:
+# Запуск контейнера
 `docker run -d -p 80:80 [--name Name] nginx`
 <i><p>(первые [80] - локальный порт, вторые [80] - ссылка на контейнер) (nginx - название docker'а)</p></i>
 <p></p>
 
-<h2><b>Просмотр списка докеров</b></h2> 
-<p>docker ps [-a]</p>
+# Просмотр списка докеров 
+`docker ps [-a]`
 <i><p>Выводит список контейнеров</p></i>
 <p> </p>
 
-<h2><b>Приостановление докера:</b></h2> 
-<p>docker stop [id]</p>
+# Приостановление докера 
+`docker stop [id]`
 <i><p>Останавливает контейнер</p></i>
 <p> </p>
 
-<h2><b>Удаление докера:</b></h2> 
-<p>docker rm [id]</p>
+# Удаление докера 
+`docker rm [id]`
 <i><p>Удалает контейнер</p></i>
 <p> </p>
 
@@ -25,24 +25,22 @@
 <p>nano(vim) compose.yml</p>
 <i><p>...</p></i>
 
-<div>
+```
 version: "3.9"
-<p>
-services:</br>
-  nginx:</br>
-    image: nginx</br>
-    container_name: web-server</br>
-    ports:</br>
-    - 80:80</br>
-  git:</br>
-    image: gitea/gitea</br>
-    container_name: git-server</br>
-    ports:</br>
-    - 3000:3000</br>
-        </p>
-</div>
 
-<h2><b>Создание файла 2:</b></h2> 
+services:
+  nginx:
+    image: nginx
+    container_name: web-server
+    ports:
+    - 80:80
+  git:
+    image: gitea/gitea
+    container_name: git-server
+    ports:
+    - 3000:3000</br>
+```
+# Создание файла 2: 
 <p>nano(vim) index.js</p>
 <div>
   <p>
