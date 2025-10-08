@@ -1,0 +1,10 @@
+free(): double free detected in tcache 2
+Aborted (core dumped)
+
+@Wynazanar ➜ /workspaces/System-Programming-Kulikov-430 (main) $ gcc part_3.c 
+@Wynazanar ➜ /workspaces/System-Programming-Kulikov-430 (main) $ ./a.out 
+0 1 2 3 4 5 6 7 8 9 @Wynazanar ➜ /workspaces/System-Programming-Kulikov-430 (main) $ gcc part_3.c 
+@Wynazanar ➜ /workspaces/System-Programming-Kulikov-430 (main) $ ./a.out 
+free(): double free detected in tcache 2
+Aborted (core dumped)
+@Wynazanar ➜ /workspaces/System-Programming-Kulikov-430 (main) $ 
