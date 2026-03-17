@@ -1,5 +1,0 @@
-src/main.o: src/main.c /usr/include/stdc-predef.h include/my_lib.h \
- config.h
-/usr/include/stdc-predef.h:
-include/my_lib.h:
-config.h:
